@@ -1,0 +1,145 @@
+body {
+    font-family: Inter,Roobert,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #0e0e10;
+    margin: auto;
+}
+
+.div_bg {
+    background-color: #18181B;
+    display: flex !important;
+    padding: 30px 20px !important;
+    flex-direction: column !important;
+    margin: auto;
+    width: 420px;
+    border-radius: 5px !important;
+}
+
+.div_1 {
+    display: inline-flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 18px;
+}
+
+.div_2 {
+    font-size: 13px;
+    align-items: center;
+}
+
+.div_3 {
+    font-size: 13px;
+    width: 100% !important;
+    flex-direction: column !important;
+    display: flex !important
+}
+
+
+
+.div-label {
+    margin-bottom: 10px !important;
+}
+
+.month {
+    display: inline-flex !important;
+    width: 200px;
+}
+
+.day {
+    display: inline-flex !important;
+    width: 95px;
+    color: #fff;
+}
+
+.year {
+    display: inline-flex !important;
+    width: 95px;
+    color: #fff;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+.phone {
+    display: inline-flex !important;
+    width: 180px;
+}
+
+.phone2 {
+    display: inline-flex !important;
+    width: 215px;
+}
+
+form {
+    margin-top: 10px !important;
+}
+
+.scroll {
+    width: 100%;
+    color: #fff;
+    border-radius: 0.2rem !important;
+    border: 0px solid;
+    padding: 10px 10px !important;
+    background-color: #ffffff33 !important;
+}
+
+option {
+    color: #000;
+}
+
+input {
+    width: 100%;
+    border-radius: 0.2rem !important;
+    border: 0px solid;
+    padding: 10px 10px !important;
+    background-color: #ffffff33 !important;
+}
+
+.email {
+    cursor: pointer;
+    text-align: left;
+    font-weight: 600;
+    font-size: 13px;
+    display: block;
+    padding: 1 6 1 0;
+    border: 0px;
+    color: #9b6eee;
+    background-color: transparent;
+}
+
+p {
+    color: #adadb8;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+}
+
+.Signupbutton1 {
+    width: 400px;
+    padding: 10 0 0 0;   
+}
+
+.Signupbutton2 {
+    width: 100%;
+    height: 30px;
+    font-weight: 600;
+    background-color: #3b3b44;
+    color: #adadb8;
+    border-radius: 5px !important;
+    border: 0px;
+}
+
+.Signupbutton2:hover {
+    width: 100%;
+    height: 30px;
+    font-weight: 600;
+    background-color: #894cfa;
+    color: #fff;
+    border-radius: 5px !important;
+    border: 0px;
+
+    cursor: pointer;
+}
